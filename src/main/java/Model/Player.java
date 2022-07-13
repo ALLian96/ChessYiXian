@@ -39,4 +39,12 @@ public class Player {
     public void setChessList(List<Chess> chessList) {
         this.chessList = chessList;
     }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "hp=" + hp +
+                ", exp=" + exp +
+                '}';
+    }
 }

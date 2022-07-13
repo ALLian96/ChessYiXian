@@ -15,17 +15,24 @@ public class ChessYiXian {
 
         //用户输入各自血量经验
         InputStream in;
-        try {
-            in = new FileInputStream("default.cfg");
-            Properties defaut = new Properties();
-            Configuration.chargerProprietes(defaut,in,"default.cfg");
-            System.out.println("血量经验加载完成");
-        } catch (FileNotFoundException e) {
-            System.err.println("读取血量经验失败");
-            System.exit(1);
-        }
-        String hp = System.getProperty("P1HP");
-        System.out.println(hp);
+        in = Configuration.ouvre("default.cfg");
+        Properties defaut = new Properties();
+        Configuration.chargerProprietes(defaut,in,"default.cfg");
+        System.out.println("血量经验加载完成");
+        //P1
+        String hp = defaut.getProperty("P1HP");
+        String exp = defaut.getProperty("P1EXP");
+        me.setHp(Integer.parseInt(hp));
+        me.setExp(Integer.parseInt(exp));
+        //P2
+        hp = defaut.getProperty("P2HP");
+        exp = defaut.getProperty("P2EXP");
+        enemis.setHp(Integer.parseInt(hp));
+        enemis.setExp(Integer.parseInt(exp));
+
+        System.out.println(me);
+        System.out.println(enemis);;
+
 
         //读取双方牌
         in = Configuration.ouvre("Test");
