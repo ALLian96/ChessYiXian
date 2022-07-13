@@ -1,0 +1,258 @@
+[
+  {
+    "cardName": "普通攻击",
+    "level": 1 ,
+    "damage": 3
+  },
+  {
+    "cardName": "星弈·飞" ,
+    "level": 1 ,
+    "spirit": -1 ,
+    "damage": 2 ,
+    "frequency": 2
+  } ,
+  {
+    "cardName": "星弈·飞" ,
+    "level": 2 ,
+    "spirit": -1 ,
+    "damage": 4 ,
+    "frequency": 2
+  } ,
+  {
+    "cardName": "星弈·飞" ,
+    "level": 3 ,
+    "damage": 6 ,
+    "frequency": 2
+  } ,
+  {
+    "cardName": "星弈·虎" ,
+    "level": 1 ,
+    "damage": 1 ,
+    "frequency": 3 ,
+    "effect": "虚弱" ,
+    "duration": 1
+  } ,
+  {
+    "cardName": "星弈·虎" ,
+    "level": 2 ,
+    "damage": 1 ,
+    "frequency": 3 ,
+    "effect": "虚弱" ,
+    "duration": 2
+  } ,
+  {
+    "cardName": "星弈·虎" ,
+    "level": 3 ,
+    "damage": 1 ,
+    "frequency": 3 ,
+    "effect": "虚弱" ,
+    "duration": 3
+  } ,
+  {
+    "cardName": "星弈·断" ,
+    "level": 1 ,
+    "spirit": -1 ,
+    "damage": 16 ,
+    "frequency": 1 ,
+    "effect": "跳过" ,
+    "duration": 1
+  } ,
+  {
+    "cardName": "星弈·断" ,
+    "level": 2 ,
+    "spirit": -1 ,
+    "damage": 22 ,
+    "frequency": 1 ,
+    "effect": "跳过" ,
+    "duration": 1
+  } ,
+  {
+    "cardName": "星弈·断" ,
+    "level": 3 ,
+    "spirit": -1 ,
+    "damage": 28 ,
+    "frequency": 1 ,
+    "effect": "跳过" ,
+    "duration": 1
+  } ,
+  {
+    "cardName": "天元心法" ,
+    "level": 1 ,
+    "star": 1 ,
+    "continue": true
+  } ,
+  {
+    "cardName": "天元心法" ,
+    "level": 2 ,
+    "star": 2 ,
+    "continue": true
+  } ,
+  {
+    "cardName": "天元心法" ,
+    "level": 3 ,
+    "star": 3 ,
+    "continue": true
+  } ,
+  {
+    "cardName": "千里神行符" ,
+    "level": 1 ,
+    "spirit": 2 ,
+    "actAgain": true ,
+    "consume": true
+  } ,
+  {
+    "cardName": "千里神行符" ,
+    "level": 2 ,
+    "spirit": 4 ,
+    "actAgain": true ,
+    "consume": true
+  } ,
+  {
+    "cardName": "千里神行符" ,
+    "level": 3 ,
+    "spirit": 6 ,
+    "actAgain": true ,
+    "consume": true
+  } ,
+  {
+    "cardName": "七星定魂" ,
+    "level": 1 ,
+    "hpDamage": 4 ,
+    "effect": "停牌" ,
+    "duration": 1
+  } ,
+  {
+    "cardName": "七星定魂" ,
+    "level": 2 ,
+    "hpDamage": 8 ,
+    "effect": "停牌" ,
+    "duration": 1
+  } ,
+  {
+    "cardName": "七星定魂" ,
+    "level": 3 ,
+    "hpDamage": 12 ,
+    "effect": "停牌" ,
+    "duration": 1
+  },
+  {
+    "cardName": "云剑·游龙",
+    "level": 1,
+    "damage": 2,
+    "frequency": 2,
+    "cloud": {
+      "defense": 3
+    },
+    "injured": {
+      "actAgain": true
+    }
+  },
+  {
+    "cardName": "云剑·游龙",
+    "level": 1,
+    "damage": 2,
+    "frequency": 3,
+    "cloud": {
+      "defense": 5
+    },
+    "injured": {
+      "actAgain": true
+    }
+  },
+  {
+    "cardName": "云剑·游龙",
+    "level": 1,
+    "damage": 2,
+    "frequency": 4,
+    "cloud": {
+      "defense": 7
+    },
+    "injured": {
+      "actAgain": true
+    }
+  },
+  {
+    "cardName": "云舞决",
+    "level": 1 ,
+    "spirit": 2,
+    "defense": 2,
+    "swordPower": 2
+
+  },
+  {
+    "cardName": "云舞决",
+    "level": 2 ,
+    "spirit": 3,
+    "defense": 3,
+    "swordPower": 3
+
+  },
+  {
+    "cardName": "云舞决",
+    "level": 3 ,
+    "spirit": 4,
+    "defense": 4,
+    "swordPower": 4
+
+  },
+  {
+    "cardName": "剑意激荡",
+    "level": 1 ,
+    "spirit": -1,
+    "effect": "swordPower*0.8"
+  },
+  {
+    "cardName": "剑意激荡",
+    "level": 2 ,
+    "spirit": -1,
+    "effect": "swordPower*1"
+  },
+  {
+    "cardName": "剑意激荡",
+    "level": 3 ,
+    "spirit": -1,
+    "effect": "swordPower*1.2"
+  },
+  {
+    "cardName": "飞灵闪影剑",
+    "level": 1 ,
+    "damage": 1,
+    "frequency": 4
+
+  },
+  {
+    "cardName": "飞灵闪影剑",
+    "level": 2 ,
+    "damage": 1,
+    "frequency": 5
+
+  },
+  {
+    "cardName": "飞灵闪影剑",
+    "level": 3 ,
+    "damage": 1,
+    "frequency": 6
+
+  },
+  {
+    "cardName": "流云乱剑",
+    "level": 1 ,
+    "spirit": -1 ,
+    "damage": 2,
+    "frequency": 4
+  },
+  {
+    "cardName": "流云乱剑",
+    "level": 2 ,
+    "spirit": -1 ,
+    "damage": 2,
+    "frequency": 5
+  },
+  {
+    "cardName": "流云乱剑",
+    "level": 3 ,
+    "spirit": -1 ,
+    "damage": 2,
+    "frequency": 6
+  }
+]
